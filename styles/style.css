@@ -215,3 +215,19 @@ table {
             filter: grayscale(0.2);
             box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+.up-button {
+    display: inline-block;
+    background-color: #c93c79;
+    color: #64001e;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 1px solid #27191d;
+}
+
+.up-button:hover {
+    background-color: #422a34;
+    color: #f898bd;
+}
